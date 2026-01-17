@@ -103,12 +103,12 @@ Model został zaprojektowany z myślą o:
 
 ## 📁 Struktura repozytorium (skrót)
 
-├── powerbi/ # raporty i model
-├── dax/ # miary DAX
-├── powerquery/ # transformacje M
-├── data/ # dane sample / raw
-├── docs/ # dokumentacja projektu
-└── README.md
+├── powerbi/ # raporty i model  
+├── dax/ # miary DAX  
+├── powerquery/ # transformacje M  
+├── data/ # dane sample / raw  
+├── docs/ # dokumentacja projektu  
+└── README.md  
 
 
 ---
