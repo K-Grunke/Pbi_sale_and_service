@@ -14,7 +14,12 @@ z możliwością analizy w czasie oraz według kluczowych wymiarów biznesowych.
 
 Projekt został przygotowany z myślą o **czytelności modelu danych**, **dobrych praktykach BI** oraz **możliwości dalszej rozbudowy**.
 
----
+## 👨‍🎓 Informacje o autorze
+
+**Imię i nazwisko:** Konrad Grünke  
+**Kontakt:** konrad.grunke@gmail.com  
+**LinkedIn:** [linkedin.com/in/konrad-grunke/](https://www.linkedin.com/in/konrad-grunke/)
+
 
 ## 🎯 Zakres analizy
 
@@ -24,8 +29,6 @@ Raport odpowiada m.in. na pytania:
 - jak wygląda skuteczność realizacji potencjału transakcyjnego,
 - jaka jest aktywność serwisu (sprzedaż i wizyty),
 - jak wyniki różnią się w zależności od lokalizacji, doradcy lub serwisanta.
-
----
 
 ## 🗂 Źródła danych
 
@@ -39,8 +42,6 @@ Arkusz zawiera dane transakcyjne sprzedaży:
 - `Doradca`
 - `Model pojazdu`
 
----
-
 ### 📈 Skuteczność
 
 Arkusz wykorzystywany do analizy potencjału:
@@ -48,8 +49,6 @@ Arkusz wykorzystywany do analizy potencjału:
 - `Miesiąc`
 - `Data transakcji`
 - `Potencjał transakcji`
-
----
 
 ### 🔧 Serwis sprzedaż
 
@@ -59,8 +58,6 @@ Dane dotyczące sprzedaży usług serwisowych:
 - `Produkt`
 - `Serwisant`
 
----
-
 ### 🛠 Serwis wizyty
 
 Dane dotyczące liczby wizyt serwisowych:
@@ -69,10 +66,6 @@ Dane dotyczące liczby wizyt serwisowych:
 - `Serwisant`
 - `Liczba wizyt`
 
----
-
-
-
 ## 🧩 Model danych
 
 Projekt opiera się na:
@@ -80,9 +73,7 @@ Projekt opiera się na:
 - **centralnej tabeli kalendarza**,
 - rozdzieleniu danych na **tabele faktów i wymiary**,
 - współdzielonych wymiarach (czas, serwisant),
-- czytelnych relacjach umożliwiających analizę przekrojową.
-
-
+- czytelnych relacjach umożliwiających analizę przekrojową.  
 
 Model został zaprojektowany z myślą o:
 
@@ -90,16 +81,12 @@ Model został zaprojektowany z myślą o:
 - wydajności,
 - łatwej rozbudowie o kolejne obszary.
 
----
-
 ## 🧠 Zastosowane rozwiązania
 
 - Power Query – czyszczenie i normalizacja danych
 - DAX – miary biznesowe i Time Intelligence
 - Parametryzacja źródeł danych (sample / raw)
 - Dokumentacja logiki transformacji i miar (`docs`, `dax`)
-
----
 
 ## 📁 Struktura repozytorium (skrót)
 
@@ -110,9 +97,6 @@ Model został zaprojektowany z myślą o:
 ├── docs/ # dokumentacja projektu
 └── README.md
 
-
----
-
 ## 🚀 Status projektu
 Projekt rozwojowy / demonstracyjny.  
 Możliwa dalsza rozbudowa m.in. o:
@@ -120,8 +104,6 @@ Możliwa dalsza rozbudowa m.in. o:
 - porównania okresów (YoY, MoM),
 - automatyzację odświeżania,
 - publikację do Power BI Service.
-
----
 
 ## 🤝 Kontakt i rozmowa
 Projekt został udostępniony również w celu **wymiany doświadczeń, rozmowy o danych i Power BI**.
@@ -138,7 +120,5 @@ Chętnie porozmawiam o:
 - modelowaniu danych
 - dobrych praktykach BI
 - projektach analitycznych
-
----
 
 📬 **Dziękuję za poświęcony czas i zapraszam do rozmowy!**
